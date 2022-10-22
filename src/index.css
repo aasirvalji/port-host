@@ -45,3 +45,75 @@
     margin-left: 12rem;
   }
 }
+
+/* start custom styling */
+/* home */
+.home-text-container {
+  z-index: 1;
+  background-color: white;
+  color: rgb(34, 197, 94, 0.8);
+  background-color: '#FFFFFF';
+  font-weight: 300;
+
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+
+.home-text-container p {
+  padding: 1rem;
+  font-size: 1rem;
+}
+
+.home-image-container {
+  width: 500px;
+  z-index: -1;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+
+/* work */
+.company-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.company-cards > div {
+  border-radius: 50%;
+}
+
+.bell-light-container,
+.ibm-light-container {
+  margin-left: -10px;
+}
+
+.amazon-light-container img {
+  width: 45px;
+  z-index: 3;
+  padding: 10px;
+}
+
+.bell-light-container {
+  z-index: 2;
+}
+
+.ibm-light-container {
+  z-index: 1;
+  padding: 10px;
+}
+
+.bell-light-container img {
+  width: 75px;
+  padding: 10px;
+}
+.ibm-light-container img {
+  width: 75px;
+  border-radius: 50%;
+}
+/* end custom styling */
