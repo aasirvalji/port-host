@@ -11,6 +11,10 @@
   padding: 0;
 }
 
+body {
+  overflow-y: hidden;
+}
+
 @layer components {
   .sidebar-icon {
     @apply relative flex items-center justify-center 
@@ -48,28 +52,30 @@
 
 /* start custom styling */
 /* home */
-.home-text-container {
+.home-content-container,
+.work-content-container,
+.hobbies-content-container,
+.hosting-content-container {
   z-index: 1;
   background-color: white;
   color: rgb(34, 197, 94, 0.8);
   background-color: '#FFFFFF';
-  font-weight: 300;
-
+  font-weight: 250;
   position: fixed;
   top: 50%;
   left: 50%;
-  /* bring your own prefixes */
   transform: translate(-50%, -50%);
+  border-radius: 10px;
 }
 
-.home-text-container p {
+.home-content-container p {
   padding: 1rem;
-  font-size: 1rem;
+  font-size: 0.9rem;
 }
 
 .home-image-container {
   width: 500px;
-  z-index: -1;
+  z-index: 1;
   position: fixed;
   top: 50%;
   left: 50%;
@@ -78,6 +84,13 @@
 }
 
 /* work */
+.work-content-container,
+.hobbies-content-container,
+.hosting-content-container {
+  width: 290px;
+  height: 290px;
+}
+
 .company-cards {
   display: flex;
   justify-content: center;
@@ -95,16 +108,10 @@
 
 .amazon-light-container img {
   width: 45px;
-  z-index: 3;
   padding: 10px;
 }
 
-.bell-light-container {
-  z-index: 2;
-}
-
 .ibm-light-container {
-  z-index: 1;
   padding: 10px;
 }
 
@@ -115,5 +122,38 @@
 .ibm-light-container img {
   width: 75px;
   border-radius: 50%;
+}
+
+/* hobbies */
+.hobby-icon-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 80%;
+  font-size: 0.45rem;
+}
+
+.hobbies-content-container img {
+  width: 70px;
+}
+
+.gaming-container,
+.soccer-container,
+.movies-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.gaming-container img,
+.soccer-container img,
+.movies-container img {
+  border-radius: 50%;
+  margin-bottom: 0.75rem;
+}
+
+/* hosting */
+.hosting-container {
 }
 /* end custom styling */

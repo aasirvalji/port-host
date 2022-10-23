@@ -3,12 +3,12 @@ import meLight from '../assets/planetBlobLight.png';
 
 function Home() {
   return (
-    <div className='ml-4 w-full h-screen'>
+    <div className='ml-4 w-full h-screen dark:bg-gray-900'>
       <div className='home-container'>
         <div className='home-image-container'>
           <img src={meLight} alt='me' />
         </div>
-        <div className='home-text-container dark:bg-gray-900 shadow-lg'>
+        <div className='home-content-container shadow-lg'>
           <p>
             {' '}
             Hey, thanks for visiting my website! My name is Aasir Valji and im a
