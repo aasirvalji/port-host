@@ -16,15 +16,37 @@ function Hobbies() {
         <p className='text-green-500 pb-5'>Some of my hobbies include</p>
         <div className='hobby-icon-container'>
           <div className='gaming-container'>
-            <img src={apexLight} className='p-2 shadow-lg' />
-            <p>playing video games</p>
+            <a
+              href='https://www.youtube.com/watch?v=xZEhNpKXIKc&ab_channel=AasirValji'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <img src={apexLight} className='p-2 shadow-lg' alt='apex-light' />
+              <p>playing video games</p>
+            </a>
           </div>
           <div className='soccer-container'>
-            <img src={psgLight} className='p-3 shadow-lg' />
+            <a
+              href='https://en.psg.fr/'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <img src={psgLight} className='p-3 shadow-lg' alt='psg-light' />
+            </a>
             <p>watching soccer</p>
           </div>
           <div className='movies-container'>
-            <img src={interstellarLight} className='p-3 shadow-lg' />
+            <a
+              href='https://www.imdb.com/title/tt0816692/'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <img
+                src={interstellarLight}
+                className='p-3 shadow-lg'
+                alt='interstellar-light'
+              />
+            </a>
             <p>watching movies</p>
           </div>
         </div>
