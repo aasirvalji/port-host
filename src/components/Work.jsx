@@ -12,7 +12,7 @@ function Work() {
       <div className='home-image-container'>
         <img src={meLight} alt='me' />
       </div>
-      <div className='work-content-container ml-4 flex flex-col justify-center items-center w-full h-screen shadow-lg'>
+      <div className='work-content-container ml-4 flex flex-col justify-center items-center w-full h-screen shadow-lg dark:bg-gray-900'>
         <p className='text-green-500 pb-5'>Past places I've worked at</p>
         <div className='company-cards'>
           <div className='amazon-light-container shadow-lg p-6'>
@@ -26,17 +26,8 @@ function Work() {
           </div>
         </div>
 
-        <p className='text-green-500 pt-5'>
-          Click{' '}
-          <a
-            href='https://file-cli-9999.s3.us-west-2.amazonaws.com/Aasir_Valji_Resume.pdf'
-            type='application/pdf'
-            target='_blank'
-            rel='noreferrer'
-          >
-            <i class='fa-solid fa-file' />
-          </a>{' '}
-          for my full resume
+        <p className='work-shoot-message text-green-500 pt-5'>
+          Shoot me a message if you'd like a full copy of my resume :)
         </p>
       </div>
     </div>

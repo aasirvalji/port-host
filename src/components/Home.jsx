@@ -8,12 +8,12 @@ function Home() {
         <div className='home-image-container'>
           <img src={meLight} alt='me' />
         </div>
-        <div className='home-content-container shadow-lg'>
+        <div className='home-content-container shadow-lg dark:bg-gray-900'>
           <p>
             {' '}
             Hey, thanks for visiting my website! My name is Aasir Valji and im a
             student at Western University. Im completing my fourth year of
-            Software Engineering and will be starting full time in the Summer of
+            Software Engineering and will start working full time in Summer
             2023.
           </p>
           <p>
@@ -28,6 +28,7 @@ function Home() {
             >
               <i className='fa-brands fa-linkedin'></i>
             </a>
+            .
           </p>
         </div>
       </div>

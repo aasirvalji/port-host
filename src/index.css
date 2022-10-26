@@ -60,12 +60,19 @@ body {
   background-color: white;
   color: rgb(34, 197, 94, 0.8);
   background-color: '#FFFFFF';
-  font-weight: 250;
   position: fixed;
   top: 50%;
   left: 50%;
+  font-weight: 250;
   transform: translate(-50%, -50%);
   border-radius: 10px;
+}
+
+.home-content-container,
+.work-content-container,
+.hobbies-content-container,
+.hosting-content-container {
+  font-size: 0.9rem;
 }
 
 .home-content-container p {
@@ -124,13 +131,18 @@ body {
   border-radius: 50%;
 }
 
+.work-shoot-message {
+  width: 70%;
+  text-align: center;
+}
+
 /* hobbies */
 .hobby-icon-container {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  width: 80%;
-  font-size: 0.45rem;
+  width: 86%;
+  font-size: 0.5rem;
 }
 
 .hobbies-content-container img {
@@ -154,6 +166,7 @@ body {
 }
 
 /* hosting */
-.hosting-container {
+.hosting-content-container {
+  padding: 2rem;
 }
 /* end custom styling */
