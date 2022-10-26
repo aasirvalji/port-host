@@ -55,7 +55,8 @@ body {
 .home-content-container,
 .work-content-container,
 .hobbies-content-container,
-.hosting-content-container {
+.hosting-content-container,
+.incompatible-content-container {
   z-index: 1;
   background-color: white;
   color: rgb(34, 197, 94, 0.8);
@@ -167,6 +168,12 @@ body {
 
 /* hosting */
 .hosting-content-container {
+  padding: 2rem;
+}
+
+/* incompatible */
+.incompatible-content-container p {
+  font-size: 0.7rem;
   padding: 2rem;
 }
 /* end custom styling */
