@@ -2,7 +2,7 @@
 
 Simple portfolio website to test decentralized website hosting performance.\
 Fleek domain: https://shrill-butterfly-1081.on.fleek.co/ \
-NFT domain: ipfs://aasirvalji.blockchain
+NFT domain: aasirvalji.blockchain
 
 ## Hosting
 
