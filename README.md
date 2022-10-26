@@ -1,7 +1,7 @@
 ## Aasir website
 
 Simple portfolio website to test decentralized website hosting performance.\
-Fleek domain: https://shrill-butterfly-1081.on.fleek.co/ \
+Fleek domain: https://misty-firefly-9490.on.fleek.co/ \
 NFT domain: aasirvalji.blockchain
 
 ## Hosting
