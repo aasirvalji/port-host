@@ -12,7 +12,7 @@ function Hobbies() {
       <div className='home-image-container'>
         <img src={meLight} alt='me' />
       </div>
-      <div className='hobbies-content-container ml-4 flex flex-col justify-center items-center w-full h-screen shadow-lg dark:bg-gray-900'>
+      <div className='hobbies-content-container ml-4 flex flex-col justify-center items-center w-full h-screen shadow-lg'>
         <p className='text-green-500 pb-5'>Some of my hobbies include</p>
         <div className='hobby-icon-container'>
           <div className='gaming-container'>
@@ -21,7 +21,11 @@ function Hobbies() {
               target='_blank'
               rel='noopener noreferrer'
             >
-              <img src={apexLight} className='p-2 shadow-lg' alt='apex-light' />
+              <img
+                src={apexLight}
+                className='p-2 shadow-lg dark:bg-white-400'
+                alt='apex-light'
+              />
             </a>
             <p>playing video games</p>
           </div>

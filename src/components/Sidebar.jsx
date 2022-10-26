@@ -38,9 +38,14 @@ const SideBarIcon = ({
   darkTheme,
   setDarkTheme,
 }) => (
-  <div className='sidebar-icon group' onClick={() => setDarkTheme(!darkTheme)}>
+  <div
+    className='sidebar-icon group'
+    onClick={
+      typeof setDarkTheme === 'function' ? () => setDarkTheme(!darkTheme) : null
+    }
+  >
     {icon}
-    <span class='sidebar-tooltip group-hover:scale-100'>{text}</span>
+    <span className='sidebar-tooltip group-hover:scale-100'>{text}</span>
   </div>
 );
 

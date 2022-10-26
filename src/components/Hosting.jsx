@@ -8,7 +8,7 @@ function Hosting() {
       <div className='home-image-container'>
         <img src={meLight} alt='me' />
       </div>
-      <div className='hosting-content-container ml-4 flex flex-col justify-center items-center w-full h-screen shadow-lg dark:bg-gray-900'>
+      <div className='hosting-content-container ml-4 flex flex-col justify-center items-center w-full h-screen shadow-lg '>
         <p className='text-green-500 pb-5'>
           I hosted this website using IPFS. IPFS stands for InterPlanatary File
           System and is a distributed file storage protocol that uses computers

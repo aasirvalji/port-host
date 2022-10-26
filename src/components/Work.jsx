@@ -12,7 +12,7 @@ function Work() {
       <div className='home-image-container'>
         <img src={meLight} alt='me' />
       </div>
-      <div className='work-content-container ml-4 flex flex-col justify-center items-center w-full h-screen shadow-lg dark:bg-gray-900'>
+      <div className='work-content-container ml-4 flex flex-col justify-center items-center w-full h-screen shadow-lg '>
         <p className='text-green-500 pb-5'>Past places I've worked at</p>
         <div className='company-cards'>
           <div className='amazon-light-container shadow-lg p-6'>
