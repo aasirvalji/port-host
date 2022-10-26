@@ -11,7 +11,7 @@ Note: This was done using a react application. If you're using a different web f
 3. Sign up/Log in to [fleek](https://fleek.co/)
 4. Click on the "add new website" button. Grant Fleek access to your Github. Select the repo with the website code you'd like to deploy. Grant Fleek permission to your repository
 5. Fleek will now ask you how you want to deploy your code. If you're using React like me, you can select Fleek's create-react-app installation, leave all the other default installation settings as is (unless you want to change it for some reason) and hit deploy. This may take a few minutes.
-6. Keep an eye out on the deployment logs. Once the deployment is done, you will see a fleek application URL and hash outputted. This means that your website has been successfully deployed using IPFS. You can access it using the application URL. If you'd like to connect this website to an NFT domain, you'll need to store the hash outputted by this deployment for later use. Otherwise, you're done :)
+6. Keep an eye out on the deployment logs. Once the deployment is done, you will see a fleek application URL and hash outputted. This means that your website has been successfully deployed using IPFS. You can now access your website using the application URL provided. If you'd like to connect this website to an NFT domain, you'll need to store the hash outputted by this deployment for later use. Otherwise, you're done :)
 
 ### Connect an NFT Domain to your IPFS hosted website
 
@@ -29,12 +29,12 @@ domains: aasirvalji.blockchain, https://shrill-butterfly-1081.on.fleek.co/
 
 ### NFT domains browser compatability
 
-The following is a list of compatible browsers or UnstoppableDomains NFT websites:
+The following is a list of compatible browsers for UnstoppableDomains NFT websites:
 
-Opera has native support for desktop and mobile.
-Brave has native support for desktop and mobile.
-Google Chrome Extension (supports all Unstoppable Top Level Domains)
-Firefox Extension (supports all Unstoppable Top Level Domains)
-Unstoppable Browser (supports .crypto and .zil)
+- Opera has native support for desktop and mobile.
+- Brave has native support for desktop and mobile.
+- Google Chrome does not natively support these domains. You need the [Unstoppable Extension](https://chrome.google.com/webstore/detail/unstoppable-extension/beelkklmblgdljamcmoffgfbdddfpnnl?hl=en) to access all Unstoppable Top Level Domains.
+- Firefox does not natively support these domains. You need the [Unstoppable Extension](https://addons.mozilla.org/en-CA/firefox/addon/unstoppable-extension/) to access all Unstoppable Top Level Domains.
+- Unstoppable Browser has native support (supports .crypto and .zil).
 
 [Source](https://docs.unstoppabledomains.com/use-cases/support-ud-browser/)
